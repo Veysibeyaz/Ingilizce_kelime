@@ -4,14 +4,14 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kelime Öğrenme Programı</title>
+    <title>Kelime Öğrenme Programı 2</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 </head>
 <body> 
   
   <div id="app">
-    <h2>SKOR21: <span id="score">0</span></h2>
+    <h2>SKOR: <span id="score">0</span></h2>
     <div id="stars"></div> <!-- Yıldızların gösterileceği alan -->
     <h1>Kelime: <span id="word"></span></h1>
     <button id="speak-word" class="spaced-button">Telaffuz Et</button>
@@ -21,6 +21,8 @@
     <br>
     <br>
     <button id="review-incorrect" class="spaced-button">Hatalı Kelimelerle Tekrar</button>
+    <button id="show-incorrect-words" class="spaced-button">Hatalı Kelimeleri Göster</button>
+    <div id="incorrect-words-list"></div>
     <p id="feedback"></p>
 </div>
 <div class="toggle-container">
@@ -34,6 +36,5 @@
     
     <script src="app.js"></script>
     
-
 </body>
 </html>
